@@ -25,7 +25,11 @@ Este proyecto contiene la implementación de tres algoritmos de ordenamiento en 
 - `main.cpp`: Método para leer desde los archivos `.txt` y guardar su contenido en los generadores, métodos para generar todos los títulos de películas de forma aleatoria, creación de la lista y ordenamiento con obtención de tiempo de ordenamiento.
 - `listaligada.cpp` : Métodos mergeSort, quickSort, ordenarBurbuja con sus respectivos métodos auxiliares para implementarse de forma recursiva.
 
-### Instrucciones de Compilación y Ejecución
+### Análisis de algorimos
+
+[Análisis](https://www.ejemplo.com](https://eafit-my.sharepoint.com/:w:/g/personal/sifloress_eafit_edu_co/Ef04kpyMbrdDiMIRV-EUBkgBPJTG1X7oVDoWc1uD4ECYUw?e=38Nz3U)
+
+## Instrucciones de Compilación y Ejecución
 
 ### Requisitos
 
@@ -42,4 +46,5 @@ g++ -c main.cpp nodo.cpp listaligada.cpp archivo.cpp Pelicula.cpp
 g++ main.cpp -o mi_programa nodo.o listaligada.o archivo.o Pelicula.o
 
 ./mi_programa
+
 
