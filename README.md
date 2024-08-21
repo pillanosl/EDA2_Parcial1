@@ -1,7 +1,7 @@
 # Parcial Estructura de Datos y Algoritmos
 
 ### Introducción
-Este proyecto contiene la implementación de tres algoritmos de ordenamiento en C++ :
+Este proyecto contiene la implementación de tres algoritmos de ordenamiento en C++ para el caso de un catálogo de películas:
 - Burbuja.
 - QuickSort.
 - MergeSort.
