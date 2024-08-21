@@ -1,10 +1,10 @@
 # Parcial Estructura de Datos y Algoritmos
-## Algoritmos de Ordenamiento en C++
 
-Este proyecto contiene implementaciones en C++ de tres algoritmos de ordenamiento:
-- Burbuja
-- QuickSort
-- MergeSort
+### Introducción
+Este proyecto contiene la implementación de tres algoritmos de ordenamiento en C++ :
+- Burbuja.
+- QuickSort.
+- MergeSort.
 
 ### Integrantes
 
@@ -15,22 +15,15 @@ Este proyecto contiene implementaciones en C++ de tres algoritmos de ordenamient
 
 ### Contenido
 
-- `Parcialdatos`: Carpeta que contiene los archivos del código fuente con las implementaciones de los algoritmos de ordenamiento.
+- `Parcial1_Datos`: Carpeta que contiene los archivos del código fuente con las implementaciones de los algoritmos de ordenamiento.
 - `README.md`: Este archivo con instrucciones para compilar y ejecutar el programa.
 
-##### Clases
-- `archivo.cpp` :
-- `Pelicula.cpp` :
-- `nodo.cpp` :
-- `main.cpp`:
-- `listaligada.cpp` :
-- `listaligada2.cpp` :
-- `archivo.h` :
-- `Pelicula.h`:
-- `nodo.h` :
-- `main.h` :
-- `listaligada.h` :
-- `listaligada2.h` :
+#### Clases y Funciones Principales
+- `archivo.cpp` : Leer desde archivo, imprimir items, generar items aleatorios, generar fecha aleatoria, número tipo entero y float.
+- `Pelicula.cpp` : Constructor del objeto, métodos para comparar fechas, getters y setters, sobrecarga de operadores `<, > o ==`.
+- `nodo.cpp` : Constructor.
+- `main.cpp`: Método para leer desde los archivos `.txt` y guardar su contenido en los generadores, métodos para generar todos los títulos de películas de forma aleatoria, creación de la lista y ordenamiento con obtención de tiempo de ordenamiento.
+- `listaligada.cpp` : Métodos mergeSort, quickSort, ordenarBurbuja con sus respectivos métodos auxiliares para implementarse de forma recursiva.
 
 ### Instrucciones de Compilación y Ejecución
 
@@ -38,15 +31,15 @@ Este proyecto contiene implementaciones en C++ de tres algoritmos de ordenamient
 
 Asegúrate de tener instalado un compilador de C++ como `g++`.
 
-### Compilar
+### Compilación
 
-Para compilar el programa, abre una terminal en VSC y navega al directorio que contiene la carpeta Parcialdatos. 
+Para compilar el programa, abre una terminal en VSC y navega al directorio que contiene la carpeta Parcial1_Datos. 
 Ejecuta en este orden los siguientes comando en la terminal:
 
 ```sh
-g++ -c main.cpp nodo.cpp listaligada.cpp listaligada2.cpp archivo.cpp Pelicula.cpp
+g++ -c main.cpp nodo.cpp listaligada.cpp archivo.cpp Pelicula.cpp
 
-g++ main.cpp -o mi_programa nodo.o listaligada.o listaligada2.o archivo.o Pelicula.o
+g++ main.cpp -o mi_programa nodo.o listaligada.o archivo.o Pelicula.o
 
 ./mi_programa
 
